@@ -1,7 +1,7 @@
 /* style and theme CSS */
 
 main{
-	max-width: 90rem;
+	max-width: 120.0rem;
     margin: 0 auto;
 
 }
@@ -21,15 +21,34 @@ section{
 	background: #fff url(../asset/pexels-photo-374705.jpeg)no-repeat fixed center center / cover;
 }
 
-	.gelery-head-presentation header, 
+	section header, 
 	.gelery-head-presentation p,
-	.gelery-head-presentation nav,
+	section nav,
+
 	.gelery-head-presentation h3, 
 	.gelery-head-presentation h2{
 	width: 100%;
 	line-height: 2.5rem;
 	padding: 1.0rem; 
 }
-.gelery-head-presentation header *{
+section header *{
 	text-align: right;
+}
+.gelery-head-presentation nav{
+	margin-bottom: 10.0rem;
+}
+.gelery-pictures-presentation figure{
+	display: flex;
+	flex-direction: row;
+	padding: 1.0rem;
+	margin-bottom: 1.0rem;
+}
+.gelery-pictures-presentation figure img{
+	display: block;
+	width: 50%;
+	align-items: center;
+	margin-right: 1.0rem;
+}
+.gelery-pictures-presentation figcaption h2{
+	font-size: 1.9rem;
 }
