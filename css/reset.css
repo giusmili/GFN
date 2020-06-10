@@ -28,6 +28,10 @@ address{
 button, input{
 	border: 0;
 }
+a{
+	text-decoration: none;
+	color: #222;
+}
 
 /* scroll bars */
 
