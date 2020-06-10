@@ -1,1 +1,35 @@
 /* style and theme CSS */
+
+main{
+	max-width: 90rem;
+    margin: 0 auto;
+
+}
+
+/* chaque section */
+
+section{
+ 	display: flex;
+    height: 100vh;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.gelery-head-presentation{
+	background: #fff url(../asset/pexels-photo-374705.jpeg)no-repeat fixed center center / cover;
+}
+
+	.gelery-head-presentation header, 
+	.gelery-head-presentation p,
+	.gelery-head-presentation nav,
+	.gelery-head-presentation h3, 
+	.gelery-head-presentation h2{
+	width: 100%;
+	line-height: 2.5rem;
+	padding: 1.0rem; 
+}
+.gelery-head-presentation header *{
+	text-align: right;
+}
