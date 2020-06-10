@@ -28,11 +28,37 @@ section{
 	.gelery-head-presentation h3, 
 	.gelery-head-presentation h2{
 	width: 100%;
-	line-height: 2.5rem;
+	
 	padding: 1.0rem; 
 }
-section header *{
+section header{
+	position: relative;
+}
+section nav{ /* cette est commune à toutes les section */
+	background: #fff url() 0 0 no-repeat;
+
+
+}
+section nav ul{
+	line-height: 2.5rem;
+
+}
+section nav ul li{
+	margin-bottom: 0.1rem;
+	text-transform: uppercase;
+
+
+
+}
+section header .burger{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+section header h1{
 	text-align: right;
+	line-height: 4.5rem;
 }
 .gelery-head-presentation nav{
 	margin-bottom: 10.0rem;
@@ -42,12 +68,19 @@ section header *{
 	flex-direction: row;
 	padding: 1.0rem;
 	margin-bottom: 1.0rem;
+
 }
-.gelery-pictures-presentation figure img{
-	display: block;
+.gelery-pictures-presentation figure img,
+.gelery-pictures-presentation figcaption
+
+{
+	
 	width: 50%;
-	align-items: center;
+	
 	margin-right: 1.0rem;
+}
+.gelery-pictures-presentation figcaption{
+	margin: 0;
 }
 .gelery-pictures-presentation figcaption h2{
 	font-size: 1.9rem;
