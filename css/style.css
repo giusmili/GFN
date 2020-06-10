@@ -7,18 +7,22 @@ main{
 }
 
 /* chaque section */
-
+/* code couleur */
+:root{
+	--title-header: rgba(200,0,0,1);
+}
 section{
  	display: flex;
     height: 100vh;
-    /* justify-content: center; */
+	/* justify-content: center; */
     align-items: center;
     flex-direction: column;
-
+	
 
 }
 .gelery-head-presentation{
 	background: #fff url(../asset/pexels-photo-374705.jpeg)no-repeat fixed center center / cover;
+
 }
 
 	section header, 
@@ -32,10 +36,20 @@ section{
 	padding: 1.0rem; 
 }
 section header{
-	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 10;
+
+}
+section header h1 strong{
+	color: var(--title-header);
 }
 section nav{ /* cette est commune à toutes les section */
 	background: #fff url() 0 0 no-repeat;
+	display: none;
 
 
 }
@@ -60,9 +74,20 @@ section header h1{
 	text-align: right;
 	line-height: 4.5rem;
 }
-.gelery-head-presentation nav{
-	margin-bottom: 10.0rem;
+.gelery-head-presentation{
+	position: relative;
 }
+.gelery-head-presentation aside{
+	position: absolute;
+	bottom: 1.0rem;
+	left: 0;
+	width: 100%;
+}
+.gelery-head-presentation aside p{
+	line-height: 2.5rem;
+}
+/* pictures */
+
 .gelery-pictures-presentation figure{
 	display: flex;
 	flex-direction: row;
@@ -70,18 +95,22 @@ section header h1{
 	margin-bottom: 1.0rem;
 
 }
+/* alignement d'éléménts */
 .gelery-pictures-presentation figure img,
-.gelery-pictures-presentation figcaption
-
-{
+.gelery-pictures-presentation figcaption{
 	
 	width: 50%;
 	
 	margin-right: 1.0rem;
 }
+
 .gelery-pictures-presentation figcaption{
 	margin: 0;
 }
 .gelery-pictures-presentation figcaption h2{
 	font-size: 1.9rem;
 }
+.gelery-pictures-presentation footer{
+	width: 100%;
+}
+
