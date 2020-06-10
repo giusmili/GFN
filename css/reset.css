@@ -1,0 +1,45 @@
+
+/* reset css for GFN Giusmili 2020 */
+html{
+	scroll-behavior: smooth;
+	font-size: 62.5%; /* ratio de compatibilité des tailles */
+}
+body{
+	font: 1.6rem 'Lato',sans-serif; 
+
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+ul, h1, h2, h3,h4, p, figure, dl, dt, dd, ul, ol{
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	font-weight: 400;
+}
+a, details, summary{
+	text-decoration: none;
+	outline: 0;
+}
+address{
+	font-style: normal;
+}
+button, input{
+	border: 0;
+}
+
+/* scroll bars */
+
+*{
+/* For FF and non-webkit browsers */
+	scrollbar-width: thin;
+	scrollbar-color: #000 #FFF;
+}
+*::-webkit-scrollbar {
+			width: 2px;
+}
+*::-webkit-scrollbar-thumb {
+			background-color: black;
+			outline: 1px solid slategrey;
+}
