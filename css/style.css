@@ -3,6 +3,7 @@
 main{
 	max-width: 120.0rem;
     margin: 0 auto;
+  
 
 
 }
@@ -17,15 +18,16 @@ section{
  	display: flex;
     align-items: center;
     flex-direction: column;
-    z-index: 1;
     background: #fff url() 0 0 no-repeat;
+    z-index: 2;
+    
 	
 
 }
 .gelery-head-presentation{
 	background: #fff url(../asset/pexels-photo-374705.jpeg)no-repeat fixed center center / cover;
 	height: 100vh;
-	margin-bottom: 2.0rem;
+	padding-bottom: 2.0rem;
 
 }
 
@@ -129,7 +131,7 @@ main footer{
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	z-index: 0;
+	z-index: 1;
 	padding: 1.0rem;
 	width: 100%;
 	background: #222 url() 0 0 no-repeat;
