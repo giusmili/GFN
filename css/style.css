@@ -19,7 +19,7 @@ section{
     align-items: center;
     flex-direction: column;
     background: #fff url() 0 0 no-repeat;
-    z-index: 2;
+    z-index: 1;
     
 	
 
@@ -28,10 +28,11 @@ section{
 	background: #fff url(../asset/pexels-photo-374705.jpeg)no-repeat fixed center center / cover;
 	height: 100vh;
 	padding-bottom: 2.0rem;
+	
 
 }
 
-	section header, 
+	main header, 
 	.gelery-head-presentation p,
 	section nav,
 
@@ -41,16 +42,16 @@ section{
 	
 	padding: 1.0rem; 
 }
-section header{
+main header{
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	background-color: #fff;
-	z-index: 10;
+	z-index: 20;
 
 }
-section header h1 strong{
+main header h1 strong{
 	color: var(--title-header);
 }
 section nav{ /* cette est commune à toutes les section */
@@ -74,15 +75,16 @@ section nav ul li{
 
 
 }
-section header .burger{
+main header .burger{
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 1;
 }
-section header h1{
+main header h1{
 	text-align: right;
 	line-height: 4.5rem;
+	font-size: 2rem;
 }
 .gelery-head-presentation{
 	position: relative;
@@ -126,12 +128,43 @@ section header h1{
 .gelery-pictures-presentation footer{
 	width: 100%;
 }
-/* footer info commun aux sections */
+
+/* gelery exhibition */
+.gelery-exhibition h2, .gelery-exhibition h3{
+		width: 100%;
+		
+
+}
+.gelery-exhibition{
+	padding: 4.0rem 1.0rem 4.0rem 1.0rem;
+
+
+}
+.gelery-exhibition .pictures{
+	width: 100%;
+}
+.gelery-exhibition p{
+	margin-top: 4.0rem;
+	line-height: 2.5rem;
+	padding: 0;
+}
+.gelery-exhibition h2{
+	padding-bottom: 2.0rem;
+}
+.gelery-exhibition .exhibition-more{
+	margin-top: 2.0rem;
+	color: #999;
+}
+.gelery-exhibition .pictures img{
+	display: block;
+	width: 100%;
+}
+/* footer info general */
 main footer{
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 0;
 	padding: 1.0rem;
 	width: 100%;
 	background: #222 url() 0 0 no-repeat;
