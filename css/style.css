@@ -13,9 +13,12 @@ main{
 	--title-header: rgba(200,0,0,1);
 }
 section{
+	position: relative;
  	display: flex;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
+    background: #fff url() 0 0 no-repeat;
 	
 
 }
@@ -122,26 +125,26 @@ section header h1{
 	width: 100%;
 }
 /* footer info commun aux sections */
-section footer{
+main footer{
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	z-index: 10;
+	z-index: 0;
 	padding: 1.0rem;
 	width: 100%;
 	background: #222 url() 0 0 no-repeat;
 }
-section footer ul li{
+main footer ul li{
 	display: inline-block;
 	width: calc(100% / 2);
 	vertical-align: top;
 
 }
-section footer ul li p{
+main footer ul li p{
 	font-size: 1.2rem;
 	margin-bottom: 1.0rem;
 	color: #fff;
 }
-section footer ul li+li{
+main footer ul li+li{
 	text-align: right;
 }
