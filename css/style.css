@@ -207,10 +207,11 @@ main header h1{
 	border: solid 0.1rem #b2bec3;
 	display: block;
 	width: 100%;
-	line-height: 2.6rem;
+	line-height: 3rem;
 	margin-bottom: 1.0rem;
 	resize: none;
 	color: #b2bec3;
+	font-size: initial;
 }
 .gelery-exhibition .form textarea{
 	height: 9.0rem;
