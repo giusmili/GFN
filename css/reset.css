@@ -1,13 +1,28 @@
 
 /* reset css for GFN Giusmili 2020 */
+@font-face {
+  font-family: "MetaPro-Normal";
+  src: url("../font/MetaPro-Normal.ttf");
+}
+@font-face{
+	font-family: "MetaPro-Bold";
+  	src: url("../font/MetaPro-Bold.ttf");
+}
+@font-face{
+	font-family: "MetaPro-BoldItalic";
+  	src: url("../font/MetaPro-BoldItalic.ttf");
+}
 html{
 	scroll-behavior: smooth;
 	font-size: 62.5%; /* ratio de compatibilité des tailles */
 }
 body{
-	font: 1.6rem 'Lato',sans-serif; 
+	font: 1.6rem 'MetaPro-Normal',sans-serif; 
 
 	margin: 0;
+}
+h1,h2{
+	font-family: "MetaPro-Bold";
 }
 *{
 	box-sizing: border-box;
