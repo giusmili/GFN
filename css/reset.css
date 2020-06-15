@@ -12,6 +12,7 @@
 	font-family: "MetaPro-BoldItalic";
   	src: url("../font/MetaPro-BoldItalic.ttf");
 }
+
 html{
 	scroll-behavior: smooth;
 	font-size: 62.5%; /* ratio de compatibilité des tailles */

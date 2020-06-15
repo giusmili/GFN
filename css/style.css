@@ -121,9 +121,11 @@ main header h1{
 
 .gelery-pictures-presentation figcaption{
 	margin: 0;
+	color: #636e72;
 }
 .gelery-pictures-presentation figcaption h2{
 	font-size: 1.9rem;
+
 }
 .gelery-pictures-presentation footer{
 	width: 100%;
@@ -132,6 +134,7 @@ main header h1{
 /* gelery exhibition */
 .gelery-exhibition h2, .gelery-exhibition h3{
 		width: 100%;
+
 		
 
 }
@@ -172,6 +175,7 @@ main header h1{
 }
 .gelery-exhibition h2{
 	padding-bottom: 2.0rem;
+
 }
 .gelery-exhibition .exhibition-more{
 	margin-top: 2.0rem;
