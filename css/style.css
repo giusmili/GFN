@@ -208,7 +208,8 @@ main header h1{
 	text-align: center;
 
 }
-.gelery-exhibition .form input, .gelery-exhibition .form textarea{
+.gelery-exhibition .form input,
+.gelery-exhibition .form textarea{
 	border: solid 0.1rem #b2bec3;
 	display: block;
 	width: 100%;
@@ -238,12 +239,12 @@ main header h1{
 }
 
 /* Section Current Upcoming */
-.gelery-pictures-current{
+.gelery-pictures-current, .gelery-pictures-geo{
 	position: relative;
 	width: 100%;
 	padding:4.0rem 1.0rem 4.0rem 1.0rem;
 	z-index: 1;
-	pad
+
 }
 .gelery-pictures-current ul{
 	width: 100%;
@@ -260,22 +261,86 @@ main header h1{
 .gelery-pictures-current ul li:first-child{
 	padding: 0;
 }
-.gelery-pictures-current figure{
+.gelery-pictures-current figure, .gelery-pictures-geo figure{
 	width: 100%;
 	padding-top: 2.0rem;
 }
-.gelery-pictures-current figure img{
+.gelery-pictures-current figure img, .gelery-pictures-geo figure img{
 	display: block;
 	width: 100%;
 }
-.gelery-pictures-current figure figcaption h2{
+.gelery-pictures-current figure figcaption h2, 
+.gelery-pictures-geo figure figcaption h2{
 	text-transform: uppercase;
 	font-weight: 100;
 	font-size: 1.9rem;
 }
-.gelery-pictures-current figure figcaption p{
+.gelery-pictures-current figure figcaption p, 
+.gelery-pictures-geo figure figcaption p{
 	padding: 0;
 }
+.gelery-pictures-geo h3{
+	padding: 2.0rem 0 1.0rem 0;
+}
+.gelery-pictures-geo{
+	text-align: left;
+}
+.gelery-pictures-geo figure figcaption address{
+	padding-top: 2.0rem;
+}
+.gelery-pictures-geo figure address a{
+	color: #b2bec3;
+}
+.gelery-pictures-geo figure iframe{
+	display: block;
+	width: 100%;
+	padding-top: 2.0rem;
+}
+.gelery-pictures-geo{
+	
+	align-items: start;
+}
+.gelery-pictures-geo ul{
+	width: 100%;
+}
+.gelery-pictures-geo ul .form-mailing, 
+.gelery-pictures-geo ul .socials{
+	
+	display: inline-block;
+	width: calc(100% / 2 );
+	vertical-align: top;
+	
+}
+.gelery-pictures-geo ul .form-mailing input{
+	line-height: 1.5rem;
+	border: solid 0.1rem #b2bec3;
+	width: 100%;
+	margin-bottom: 0.9rem;
+	padding: 0.5rem;
+}
+.gelery-pictures-geo ul .form-mailing input[type="submit"]{
+	background: transparent;
+	font-size: initial;
+	border: 0;
+	text-align: left;
+	cursor: pointer;
+	padding: 0;
+}
+.gelery-pictures-geo ul .form-mailing input::placeholder{
+	color: #b2bec3;
+}
+.gelery-pictures-geo ul .socials{
+	text-align: right;
+	color: #b2bec3;
+}
+.gelery-pictures-geo .legend{
+	text-align: justify;
+	padding: 1.0rem 0;
+}
+.gelery-pictures-geo .list-name{
+	padding-top: 2.0rem;
+}
+
 
 /* footer info general */
 main footer{
