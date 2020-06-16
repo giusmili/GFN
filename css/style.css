@@ -42,7 +42,7 @@ section{
 	
 	padding: 1.0rem; 
 }
-main header{
+main header, nav{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -54,9 +54,12 @@ main header{
 main header h1 strong{
 	color: var(--title-header);
 }
-section nav{ /* cette est commune à toutes les section */
-	background: #fff url() 0 0 no-repeat;
-	display: none;
+nav{ /* cette est commune à toutes les section */
+	top: 6rem;
+	background-color: rgba(255,255,255,0.9);
+	padding: 1.0rem;
+	height: 100vh;
+	
 
 
 }
@@ -64,22 +67,35 @@ section p{
 	width: 100%;
 	padding: 0 1.0rem;
 }
-section nav ul{
+nav ul{
 	line-height: 2.5rem;
 
 }
-section nav ul li{
+nav ul li{
 	margin-bottom: 0.1rem;
 	text-transform: uppercase;
 
 
 
 }
+/* event */
+.main-menu{
+	transform: translateX(-50rem);
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+.main-menu-appear{
+	transform: translateX(0);
+	opacity: 1;
+}
+
+/* end nav */
 main header .burger{
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 1;
+	cursor: pointer;
 }
 main header h1{
 	text-align: right;
