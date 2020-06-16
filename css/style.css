@@ -89,13 +89,13 @@ main header h1{
 .gelery-head-presentation{
 	position: relative;
 }
-.gelery-head-presentation aside{
+.gelery-head-presentation article{
 	position: absolute;
 	bottom: 1.0rem;
 	left: 0;
 	width: 100%;
 }
-.gelery-head-presentation aside p{
+.gelery-head-presentation article p{
 	line-height: 2.5rem;
 }
 /* pictures */
